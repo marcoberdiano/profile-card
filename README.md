@@ -22,7 +22,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: [https://musical-biscuit-97a5d8.netlify.app/](https://musical-biscuit-97a5d8.netlify.app/)
+- Live Site URL: [https://admirable-babka-1a0ccc.netlify.app/](https://admirable-babka-1a0ccc.netlify.app/)
 
 ## My process
 
