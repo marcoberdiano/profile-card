@@ -1,0 +1,22 @@
+@import './cardBody';
+@import './cardFooter';
+
+.card-container {
+    width: 25em;
+    height: auto;
+    background-color: #FFF;
+    z-index: 1;
+    border-radius: 20px;
+
+    .card-bg {
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .card-container {
+        width: 20em;     
+    }
+}

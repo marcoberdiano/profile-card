@@ -1,0 +1,46 @@
+.card-body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .card-profile-img-container {
+        margin-top: -50px;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 50%;
+        background-color: #FFF;
+        
+        .card-profile-img {
+            width: 100px;
+            border-radius: 50%;
+        }
+    }
+
+    .profile-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 10px 0px;
+
+        .profile-name, .profile-age {
+            font-size: 1.3em;
+        }
+
+        .profile-name {
+            color: $Verydarkdesaturatedblue;
+        }
+
+        .profile-age {
+            color: $Darkgrayishblue;
+        }
+    }
+
+    .card-city {
+        color: $Darkgray;
+        margin: 10px 0px;
+        font-size: 1.2em;
+    }
+}

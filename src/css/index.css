@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap");
+.card-body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.card-body-container .card-profile-img-container {
+  margin-top: -50px;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+.card-body-container .card-profile-img-container .card-profile-img {
+  width: 100px;
+  border-radius: 50%;
+}
+.card-body-container .profile-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+}
+.card-body-container .profile-info .profile-name, .card-body-container .profile-info .profile-age {
+  font-size: 1.3em;
+}
+.card-body-container .profile-info .profile-name {
+  color: hsl(229deg, 23%, 23%);
+}
+.card-body-container .profile-info .profile-age {
+  color: hsl(227deg, 10%, 46%);
+}
+.card-body-container .card-city {
+  color: hsl(0deg, 0%, 59%);
+  margin: 10px 0px;
+  font-size: 1.2em;
+}
+
+.card-footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0px;
+  border-top: 1px solid hsl(0deg, 0%, 59%);
+  padding: 30px 0px;
+}
+.card-footer-container .card-footer-info {
+  text-align: center;
+}
+.card-footer-container .card-footer-info .card-footer-text {
+  margin: 5px 0px;
+  font-weight: 700;
+  color: hsl(227deg, 10%, 46%);
+  letter-spacing: 1px;
+}
+
+.card-container {
+  width: 25em;
+  height: auto;
+  background-color: #FFF;
+  z-index: 1;
+  border-radius: 20px;
+}
+.card-container .card-bg {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+  .card-container {
+    width: 20em;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: hsl(185deg, 75%, 39%);
+  overflow: hidden;
+}
+
+.bgtop {
+  width: 70%;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  z-index: -1;
+}
+
+.bgbottom {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=index.css.map */
